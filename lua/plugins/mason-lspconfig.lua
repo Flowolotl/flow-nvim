@@ -4,8 +4,13 @@ return {
     opts = {
         ensure_installed = {
             "lua_ls",
-            "jdtls",
+            "luacheck",
+
             "basedpyright",
+            "ruff",
+
+            "jdtls",
+            "checkstyle",
         },
     },
 }
