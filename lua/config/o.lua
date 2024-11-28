@@ -11,3 +11,4 @@ o.autoindent = true
 
 o.cursorline = true
 o.termguicolors = true
+o.clipboard = "unnamedplus"

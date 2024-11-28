@@ -13,6 +13,8 @@ local leaders = {
     e = { ':NvimTreeToggle<CR>', 'Toggle NvimTree'},
 }
 
+-- require("nvim_comment").setup()
+
 local ntest = {
     j = 'jzz',
     k = 'kzz',
@@ -22,6 +24,7 @@ local ntest = {
     ['<Up>'] = '',
     ['<Right>'] = '',
     ['<Left>'] = '',
+    ["<C-_>"] = ':CommentToggle<CR>'
 }
 
 local itest = {
