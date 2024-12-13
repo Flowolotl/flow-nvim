@@ -9,6 +9,11 @@ return {
             "ruff",
 
             "jdtls",
+
+            "cssls",
+            "html",
+            "htmx",
+            "ts_ls"
         },
     },
 }

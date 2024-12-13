@@ -5,6 +5,8 @@ return {
         ensure_installed = {
             "luacheck",
             "checkstyle",
+            "eslint_d",
+            "stylelint",
         }
     }
 }
