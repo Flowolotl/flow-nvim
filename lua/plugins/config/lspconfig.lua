@@ -1,5 +1,21 @@
 local lspconfig = require("lspconfig")
 
+lspconfig.cssls.setup({
+
+})
+
+lspconfig.htmx.setup({
+
+})
+
+lspconfig.html.setup({
+
+})
+
+lspconfig.ts_ls.setup({
+
+})
+
 lspconfig.lua_ls.setup{
     settings = {
         Lua = {
