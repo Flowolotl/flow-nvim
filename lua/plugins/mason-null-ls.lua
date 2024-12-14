@@ -7,6 +7,7 @@ return {
             "checkstyle",
             "eslint_d",
             "stylelint",
+            "htmlhint",
         }
     }
 }
